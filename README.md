@@ -13,6 +13,7 @@ Dockerfile to build an [Clam Antivirus](https://www.clamav.net) container image 
 
 * This Container uses a [customized Alpine base](https://hub.docker.com/r/tiredofit/debian) which includes [s6 overlay](https://github.com/just-containers/s6-overlay) enabled for PID 1 Init capabilities, [zabbix-agent](https://zabbix.org) for individual container monitoring, Cron also installed along with other tools (bash,curl, less, logrotate, nano, vim) for easier management. 
 
+This version differs from tiredofit in the configuration where DetectPUA (Potential Unwanted Applications) is desactivated to allows some Excel files with protected cells.
 
 
 [Changelog](CHANGELOG.md)
