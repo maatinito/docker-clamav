@@ -1,10 +1,10 @@
-# hub.docker.com/r/tiredofit/clamav
+# hub.docker.com/r/matau/clamav
 
-[![Build Status](https://img.shields.io/docker/build/matau/clamav.svg)](https://hub.docker.com/r/matau/clamav)
+[![Build Status](https://img.shields.io/docker/cloud/build/matau/clamav.svg)](https://hub.docker.com/r/matau/clamav)
 [![Docker Pulls](https://img.shields.io/docker/pulls/matau/clamav.svg)](https://hub.docker.com/r/matau/clamav)
 [![Docker Stars](https://img.shields.io/docker/stars/matau/clamav.svg)](https://hub.docker.com/r/matau/clamav)
 [![Docker 
-Layers](https://images.microbadger.com/badges/image/tiredofit/clamav.svg)](https://microbadger.com/images/tiredofit/clamav)
+Layers](https://images.microbadger.com/badges/image/matau/clamav.svg)](https://microbadger.com/images/matau/clamav)
 
 
 # Introduction
