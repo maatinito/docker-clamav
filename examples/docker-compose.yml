@@ -1,21 +1,20 @@
-version: '2'
-
+version: '2.4'
 services:
   
   clamav-app:
-    image: tiredofit/clamav
+    image: tiredofit/clamav:latest
     container_name: clamav-app
     volumes:
-    - ./data/clamav:/data
-    - ./logs/clamav:/var/log/clamav
+      - ./data:/data
+      - ./logs:/logs
     environment:
-    - ZABBIX_HOSTNAME=clamav-app
+      - CONTAINER_NAME=clamav-app
+      - DEFINITIONS_UPDATE_FREQUENCY=60
     networks:
-      - proxy-tier
+      - services
     restart: always
 
 networks:
-  proxy-tier:
-    external:
-      name: nginx-proxy
+  services:
+    external: true
 
